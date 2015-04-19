@@ -14,6 +14,9 @@ layout: default
             {% for event in year.events %}
                 <h3>{{ event.title }}{% if event.artist %} ({{ event.artist}}){% endif %}</h3>
                 <p class="post-meta">{{ event.date }}{% if event.guess %} (approx. date){% endif %}</p>
+                {% if event.image %}
+                    <p class="event-image"><img src="/images/{{ event.image }}" alt="{{ event.title }}"></p>
+                {% endif %}
             {% endfor %}
         </ul>
       </li>
