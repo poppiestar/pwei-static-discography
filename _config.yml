@@ -3,7 +3,7 @@ title: The Incredible PWEI Discography v3.0
 email: drew@onpatrol.co
 description: > # this means to ignore newlines until "baseurl:"
   The Discography of the Incredible Pop Will Eat Itself
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/pwei-static-discography" # the subpath of your site, e.g. /blog/
 url: "http://poppiestar.github.io/pwei-db-static/" # the base hostname & protocol for your site
 
 # Build settings
