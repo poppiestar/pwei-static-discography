@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Timeline</h1>
+
+  <ul class="post-list">
+    {% for year in site.data.timeline %}
+      <li>
+        <h2>{{ year.year }}</h2>
+        <ul class="events">
+            {% for event in year.events %}
+                <h3>{{ event.title }}{% if event.artist %} ({{ event.artist}}){% endif %}</h3>
+                <p class="post-meta">{{ event.date }}{% if event.guess %} (approx. date){% endif %}</p>
+            {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
