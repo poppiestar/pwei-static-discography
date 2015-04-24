@@ -12,10 +12,32 @@ layout: default
         <h2>{{ year.year }}</h2>
         <ul class="events">
             {% for event in year.events %}
-                <h3>{{ event.title }}{% if event.artist %} ({{ event.artist}}){% endif %}</h3>
-                <p class="post-meta">{{ event.date }}{% if event.guess %} (approx. date){% endif %}</p>
-                {% if event.image %}
-                    <p class="event-image"><img src="{{ site.baseurl }}/images/{{ event.image }}" alt="{{ event.title }}"></p>
+                {% if event.type == 'text' %}
+                    {% if event.text %}
+                        {% for paragraph in event.text %}
+                            <p>{{ paragraph }}</p>
+                        {% endfor %}
+                    {% endif %}
+                {% endif %}
+                {% if event.type == 'release' %}
+                    <li class="release">
+                        <h3>{{ event.title }}{% if event.artist %} ({{ event.artist }}){% endif %}</h3>
+                        <p class="post-meta">{{ event.date }}{% if event.guess %} (approx. date){% endif %}</p>
+                        {% if event.image %}
+                            <p class="event-image"><img src="{{ site.baseurl }}/images/{{ event.image }}" alt="{{ event.title }}"></p>
+                        {% endif %}
+                    </li>
+                {% endif %}
+                {% if event.type == 'tour' %}
+                    <li class="tour">
+                        <h3>{{ event.title }}</h3>
+                        <p>{{ event.start }} &mdash; {{ event.end }}</p>
+                        {% if event.text %}
+                            {% for paragraph in event.text %}
+                                <p>{{ paragraph }}</p>
+                            {% endfor %}
+                        {% endif %}
+                    </li>
                 {% endif %}
             {% endfor %}
         </ul>

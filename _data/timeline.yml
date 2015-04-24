@@ -1,6 +1,13 @@
 -   year: 1986
     events:
         -
+            type: text
+            text:
+                - Forming in some time with some guys, the fellas did some stuff and were soon kicking it large being all awesome.
+                - Then they changed their name to something else and become all the more awesome.
+
+        -
+            type: release
             title: 2000 Light Ales from Home
             artist: Wild and Wandering
             date: 1986-01-01
@@ -8,12 +15,14 @@
             guess: true
 
         -
+            type: release
             title: The Poppies Say GRRrrr!
             date: 1986-05-17
             image: 1986/poppies-say-grr.jpg
             guess: true
 
         -
+            type: release
             title: Poppiecock
             date: 1986-10-27
             image: 1986/poppiecock.jpg
@@ -22,22 +31,26 @@
 -   year: 1987
     events:
         -
+            type: release
             title: Sweet Sweet Pie
             date: 1987-01-26
             image: 1987/sweet-sweet-pie.jpg
             guess: true
 
         -
+            type: release
             title: Love Missile F1-11
             date: 1987-05-11
             image: 1987/love-missile.jpg
 
         -
+            type: release
             title: Beaver Patrol
             date: 1987-09-21
             image: 1987/beaver-patrol.jpg
 
         -
+            type: release
             title: Box Frenzy
             date: 1987-10-26
             image: 1987/box-frenzy.jpg
@@ -46,17 +59,20 @@
 -   year: 1988
     events:
         -
+            type: release
             title: There Is No Love Between Us Anymore
             date: 1988-01-18
             image: 1988/no-love.jpg
 
         -
+            type: release
             title: Def.Con.One
             date: 1988-07-18
             image: 1988/def-con-one.jpg
             guess: true
 
         -
+            type: release
             title: Now For A Feast!
             date: 1988-12-01
             image: 1988/now-for-a-feast.jpg
@@ -65,21 +81,25 @@
 -   year: 1989
     events:
         -
+            type: release
             title: Can U Dig It?
             date: 1989-01-30
             image: 1989/can-u-dig-it.jpg
 
         -
+            type: release
             title: Wise Up! Sucker
             date: 1989-04-10
             image: 1989/wise-up.jpg
 
         -
+            type: release
             title: This Is The Day... This Is The Hour... This Is This!
             date: 1989-05-01
             image: 1989/this-is-the-day.jpg
 
         -
+            type: release
             title: Very Metal Noise Pollution
             date: 1989-08-01
             image: 1989/vmnp.jpg
@@ -88,16 +108,19 @@
 -   year: 1990
     events:
         -
+            type: release
             title: Touched By The Hand Of Cicciolina
             date: 1990-05-29
             image: 1990/cicciolina.jpg
 
         -
+            type: release
             title: Dance Of The Mad
             date: 1990-10-10
             image: 1990/dance-of-the-mad.jpg
 
         -
+            type: release
             title: Cure For Sanity
             date: 1990-10-22
             image: 1990/cure-for-sanity.jpg
@@ -105,16 +128,19 @@
 -   year: 1991
     events:
         -
-            title: X Y & Zee
+            type: release
+            title: "X Y & Zee"
             date: 1991-01-02
             image: 1991/xyzee.jpg
 
         -
+            type: release
             title: 92° F / The Incredible PWEI Vs Dirty Harry
             date: 1991-05-20
             image: 1991/92degrees.jpg
 
         -
+            type: release
             title: Unspoilt By Progress
             date: 1991-06-24
             image: 1991/unspoilt.jpg
@@ -122,16 +148,19 @@
 -   year: 1992
     events:
         -
+            type: release
             title: Karmadrome / Eat Me, Drink Me, Love Me, Kill Me
             date: 1992-05-26
             image: 1992/karmadrome.jpg
 
         -
+            type: release
             title: Bulletproof!
             date: 1992-08-17
             image: 1992/bulletproof.jpg
 
         -
+            type: release
             title: The Looks or the Lifestyle?
             date: 1992-09-07
             image: 1992/looks-or-the-lifestyle.jpg
@@ -139,22 +168,26 @@
 -   year: 1993
     events:
         -
+            type: release
             title: Get The Girl! Kill The Baddies!
             date: 1993-01-24
             image: 1993/get-the-girl.jpg
             guess: true
 
         -
+            type: release
             title: At Weirds Bar And Grill
             date: 1993-02-15
             image: 1993/weirds.jpg
 
         -
+            type: release
             title: R.S.V.P./Familus Horribulus
             date: 1993-10-14
             image: 1993/rsvp.jpg
 
         -
+            type: release
             title: 16 Different Flavours Of Hell
             date: 1993-10-25
             image: 1993/16-different.jpg
@@ -163,21 +196,25 @@
 -   year: 1994
     events:
         -
+            type: release
             title: Ich Bin Ein Auslander
             date: 1994-02-28
             image: 1994/auslander.jpg
 
         -
+            type: release
             title: "Everything's Cool?"
             date: 1994-08-30
             image: 1994/everythings-cool.jpg
 
         -   
+            type: release
             title: Dos Dedos Mis Amigos
             date: 1994-09-19
             image: 1994/ddma.jpg
 
         -
+            type: release
             title: Amalgamation
             date: 1994-05-01
             image: 1994/amalgamation.jpg
@@ -186,6 +223,7 @@
 -   year: 1995
     events:
         -
+            type: release
             title: Two Fingers My Friends!
             date: 1995-03-06
             image: 1995/tfmf.jpg
@@ -193,12 +231,14 @@
 -   year: 1997
     events:
         -
+            type: release
             title: Wise Up Suckers
             date: 1997-01-01
             image: 1997/wise-up-suckers.jpg
             guess: true
 
         -
+            type: release
             title: The Radio 1 Sessions 1986-87
             date: 1997-03-10
             image: 1997/radio-sessions.jpg
@@ -207,6 +247,7 @@
 -   year: 2002
     events:
         -
+            type: release
             title: PWEI Product 1986-1994
             date: 2002-10-01
             image: 2002/pwei-product.jpg
@@ -215,6 +256,7 @@
 -   year: 2005
     events:
         -
+            type: release
             title: Reformation
             date: 2005-01-20
             image: 2005/reformation.jpg
@@ -222,29 +264,34 @@
 -   year: 2008
     events:
         -
+            type: release
             title: The Best Of Pop Will Eat Itself
             date: 2008-03-24
             image: 2008/bestof.jpg
             guess: true
         -
+            type: release
             title: Fucking & Fighting
             artist: Vile Evils
             date: 2008-03-31
             image: 2008/fucking.jpg
 
         -
+            type: release
             title: Council Housed And Violent/Fucking & Fighting
             artist: 3kStatic and Vile Evils
             date: 2008-04-15
             image: 2008/chav.jpg
 
         -
+            type: release
             title: The Way I Feel Inside
             artist: Vile Evils vs Zombies
             date: 2008-06-24
             image: 2008/the-way.jpg
 
         -
+            type: release
             title: No Fear
             artist: Vile Evils
             date: 2008-08-19
@@ -253,28 +300,33 @@
 -   year: 2010
     events:
         -
+            type: release
             title: "Demon/Axe Of Men 2010: The Remixes"
             artist: Vile Evils / Pop Will Eat Itself
             date: 2010-02-16
             image: 2010/demon.jpg
 
         -
+            type: release
             title: Vile Evils Anthology
             artist: Vile Evils
             date: 2010-03-18
             image: 2010/anthology.jpg
 
         -
+            type: release
             title: Vive Le Vile Evils
             artist: Vile Evils
             date: 2010-03-23
             image: 2010/vive-le-vile-evils.jpg
 
         -
+            type: release
             title: Axe of Men 2010
             date: 2010-05-11
             image: 2010/axe-of-men-2010.jpg
         -
+            type: release
             title: Vile TV
             artist: Vile Evils
             date: 2010-05-11
@@ -283,21 +335,25 @@
 -   year: 2011
     events:
         -
+            type: release
             title: New Noise Designed By A Sadist
             date: 2011-10-02
             image: 2011/new-noise.jpg
 
         -
+            type: release
             title: Chaos & Mayhem
             date: 2011-10-02
             image: 2011/chaos.jpg
 
         -
+            type: release
             title: 4 Hits
             date: 2011-11-16
             image: 2011/4-hits.jpg
 
         -
+            type: release
             title: Feasting Frenzy
             date: 2011-11-21
             image: 2011/feasting-frenzy.jpg
@@ -305,11 +361,13 @@
 -   year: 2012
     events:
         -
+            type: release
             title: Disguise
             date: 2012-03-12
             image: 2012/disguise.jpg
 
         -
+            type: release
             title: On Patrol In The UK 2012
             date: 2012-03-15
             image: 2012/onpatrol.jpg
@@ -317,6 +375,7 @@
 -   year: 2013
     events:
         -
+            type: release
             title: A Lick Of The Old Cassette Box
             date: 2013-11-01
             image: 2013/alotocb.jpg
@@ -324,11 +383,13 @@
 -   year: 2014
     events:
         -
+            type: release
             title: Watch the Bitch Blow
             date: 2014-03-21
             image: 2014/wtbb.jpg
 
         -
+            type: release
             title: Reclaim the Game (Funk FIFA)
             date: 2014-06-09
             image: 2014/reclaim-the-game.jpg
@@ -336,7 +397,14 @@
 -   year: 2015
     events:
         -
+            type: release
             title: Anti Nasty League
-            date: 2015-05-15
-            guess: true
+            date: 2015-04-24
+        -
+            type: tour
+            title: Anti Nasty League
+            start: 2015-05-22
+            end: 2015-05-30
+            text:
+                - Tour in support of the release of the album Anti Nasty League.
 
