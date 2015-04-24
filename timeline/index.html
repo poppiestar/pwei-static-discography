@@ -13,11 +13,13 @@ layout: default
         <ul class="events">
             {% for event in year.events %}
                 {% if event.type == 'text' %}
-                    {% if event.text %}
-                        {% for paragraph in event.text %}
-                            <p>{{ paragraph }}</p>
-                        {% endfor %}
-                    {% endif %}
+                    <li class="text">
+                        {% if event.text %}
+                            {% for paragraph in event.text %}
+                                <p>{{ paragraph }}</p>
+                            {% endfor %}
+                        {% endif %}
+                    </li>
                 {% endif %}
                 {% if event.type == 'release' %}
                     <li class="release">
